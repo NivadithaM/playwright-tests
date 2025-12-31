@@ -18,7 +18,7 @@ import test, { expect } from "@playwright/test";
 //     console.log("Soft Assertion")
 // })
 
-test.only("Non Retry Assertion",async({page})=>{
+test("Non Retry Assertion",async({page})=>{
     await page.goto("http://leaftaps.com/opentaps/control/main")
     const title=await page.title()
     console.log(title)

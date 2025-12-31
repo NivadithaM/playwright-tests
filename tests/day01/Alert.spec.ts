@@ -24,7 +24,7 @@ test("Handling Alerts with page.once",async({page})=>{
 
 })
 
-test.only("Handling Alerts with Page.on",async({page})=>{
+test("Handling Alerts with Page.on",async({page})=>{
 
     await page.goto("https://www.leafground.com/alert.xhtml")
 

@@ -11,7 +11,7 @@ test("Upload file with input tag and type is file",async({page})=>{
 })
 
 
-test.only("Upload file with Event listner",async({page})=>{
+test("Upload file with Event listner",async({page})=>{
 
     await page.goto("https://www.leafground.com/file.xhtml")
 
